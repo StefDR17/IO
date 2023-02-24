@@ -1,0 +1,189 @@
+body{
+    background-color: black;
+}
+
+#nome{
+    color: gray ;
+    font-weight: 100;
+    text-align:center;
+}
+
+#titolo{
+    animation: 3s linear 0s 1 running animTitle;
+    color: gray;
+    font-size: 350%;
+    text-align: center;
+}
+#text_box{
+    animation: 3s linear 0s 1 running animTitle;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    color:white;
+    width:350px;
+    height: 50%;
+    margin-left: 25%;
+    text-align: center;
+    align-content: center;
+}
+#text_box_2{
+    animation: 3s linear 0s 1 running animTitle;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    color:white;
+    width:350px;
+    height: 50%;
+    margin-left: 25%;
+    margin-top: 17%;
+    text-align: center;
+    align-content: center;
+}
+#immagine_box{
+    animation: 1s linear 0s 1 running animTitle1 ;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    width:450px;
+    height: 345px;
+    margin-left: 50%;
+    margin-top:-23%;
+    text-align: center;
+    align-content: center;
+}
+#immagine_box_3{
+    animation: 1s linear 0s 1 running animTitle1 ;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    width:550px;
+    height: 345px;
+    margin-left: 50%;
+    margin-top:-31%;
+    text-align: center;
+    align-content: center;
+}
+#immagine_box_2{
+    animation: 1s linear 0s 1 running animTitle1 ;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    width:450px;
+    height: 345px;
+    margin-left: 50%;
+    margin-top:-24.5%;
+    text-align: center;
+    align-content: center;
+}
+#immagine_box_4{
+    animation: 1s linear 0s 1 running animTitle1 ;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    width:450px;
+    height: 345px;
+    margin-left: 50%;
+    margin-top:-24.5%;
+    text-align: center;
+    align-content: center;
+}
+#immagine_box_5{
+    animation: 1s linear 0s 1 running animTitle1 ;
+    background-color: black;
+    border-top: 0.1cm solid white;
+    border-right: 0.1cm solid white;
+    border-left: 0.1cm solid white;
+    border-bottom: 0.1cm solid white;
+    width:450px;
+    height: 345px;
+    margin-left: 50%;
+    margin-top:-26.5%;
+    text-align: center;
+    align-content: center;
+}
+#PS_box{
+    background-color: black;
+    border-top: 0.1cm solid  black;
+    border-right: 0.1cm solid  black;
+    border-left: 0.1cm solid  black;
+    border-bottom: 0.1cm solid  black ;
+    width:50px;
+    height: 45px;
+    margin-left: 75%;
+    margin-top: 10%;
+    text-align: center;
+    align-content: center;
+}
+#PP_box{
+    background-color: black;
+    border-top: 0.1cm solid  black;
+    border-right: 0.1cm solid  black;
+    border-left: 0.1cm solid  black;
+    border-bottom: 0.1cm solid  black ;
+    width:50px;
+    height: 45px;
+    margin-left: 25%;
+    margin-top: -3.5%;
+    text-align: center;
+    align-content: center;
+}
+#PP_box_2{
+    background-color: black;
+    border-top: 0.1cm solid  black;
+    border-right: 0.1cm solid  black;
+    border-left: 0.1cm solid  black;
+    border-bottom: 0.1cm solid  black ;
+    width:50px;
+    height: 45px;
+    margin-left: 25%;
+    margin-top: 0%;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+@keyframes animTitle {
+    from {opacity: 0%; transform: translateX(-50%); filter: blur(10px); }
+    30% {
+        transform: translateX(0%);
+    }
+    60% {
+        filter: blur(0);
+    }
+    to { opacity: 100%; transform: translateX(0%); filter: blur(0);}
+}
+
+@keyframes animTitle1 {
+    from {opacity: 0%; transform: translateX(150%); filter: blur(10px); }
+    30% {
+        transform: translateX(100%);
+    }
+    60% {
+        filter: blur(0);
+    }
+    to { opacity: 100%; transform: translateX(0%); filter: blur(0);}
+}
+
+.hidden {
+    opacity: 0;
+    
+    
+}
+.show {
+    animation: transition 4s ;
+    opacity: 1;
+}
+.border_radius { border-radius: 10px 10px 10px 10px; }
